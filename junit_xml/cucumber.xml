@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="70710.769744">
+<testcase classname="Cuny First Application Test" name="Validate Cuny First Home Page test" time="70710.769744">
+<failure message="java.lang.NullPointerException&#10;&#9;at com.qa.util.TestBase.initialization(TestBase.java:34)&#10;&#9;at com.qa.stepDefination.HomePageSteps.user_opens_browser(HomePageSteps.java:13)&#10;&#9;at ✽.Given user opens browser(/Users/AliAhmed/eclipse-workspace/CunyFirstCucumberPOMTest/src/main/java/com/qa/features/cunyfirst.feature:5)&#10;"><![CDATA[Given user opens browser....................................................failed
+Then user is on login Page..................................................skipped
+Then user enters username and password......................................skipped
+Then user clicks on login button............................................skipped
+Then home page is displayed.................................................skipped
+Then validate home page title...............................................skipped
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.util.TestBase.initialization(TestBase.java:34)
+	at com.qa.stepDefination.HomePageSteps.user_opens_browser(HomePageSteps.java:13)
+	at ✽.Given user opens browser(/Users/AliAhmed/eclipse-workspace/CunyFirstCucumberPOMTest/src/main/java/com/qa/features/cunyfirst.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
